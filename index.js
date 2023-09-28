@@ -36,7 +36,7 @@ search.addEventListener('click',()=>{
         switch(json.weather[0].main)
         {
             case 'Clear':
-                    image.src = 'images/clear.png';
+                    image.src = 'clearl.png';
                     document.body.style.backgroundImage = 'url("clear.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';
@@ -45,7 +45,7 @@ search.addEventListener('click',()=>{
                     break;
 
                 case 'Rain':
-                    image.src = 'images/rain.png';
+                    image.src = 'rainl.png';
                     document.body.style.backgroundImage = 'url("rainy.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';
@@ -54,7 +54,7 @@ search.addEventListener('click',()=>{
                     break;
 
                 case 'Snow':
-                    image.src = 'images/snow.png';
+                    image.src = 'snowl.png';
                     document.body.style.backgroundImage = 'url("snowy.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';
@@ -63,7 +63,7 @@ search.addEventListener('click',()=>{
                     break;
 
                 case 'Clouds':
-                    image.src = 'images/cloud.png';
+                    image.src = 'cloudl.png';
                     document.body.style.backgroundImage = 'url("cloudy.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';
@@ -72,7 +72,7 @@ search.addEventListener('click',()=>{
                     break;
 
                 case 'Haze':
-                    image.src = 'images/mist.png';
+                    image.src = 'mistl.png';
                     document.body.style.backgroundImage = 'url("haze.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';

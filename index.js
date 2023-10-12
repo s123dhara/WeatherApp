@@ -80,7 +80,7 @@ search.addEventListener('click',()=>{
                     document.body.style.backgroundPosition = 'center center';
                     break;
                case 'Smoke':
-                    image.src = 'smoky.png';
+                    image.src = 'smokyl.png';
                     document.body.style.backgroundImage = 'url("smoke.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';

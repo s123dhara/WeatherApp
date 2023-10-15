@@ -96,7 +96,7 @@ search.addEventListener('click',()=>{
                     document.body.style.backgroundPosition = 'center center';
                     break; 
                 case 'Drizzle':
-                    image.src = 'drizzle.png';
+                    image.src = 'drizzlel.png';
                     document.body.style.backgroundImage = 'url("drizzle.jpg")';
                     document.body.style.backgroundRepeat = 'no-repeat';
                     document.body.style.backgroundSize = 'cover';

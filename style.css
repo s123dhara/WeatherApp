@@ -12,6 +12,9 @@ body{
     align-items: center;
     justify-content: center;
     background-image: url(./Default.jpg);
+    background-size: cover; /* This will make the image cover the entire body */
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+    background-position: center;
 }
 
 .container{
